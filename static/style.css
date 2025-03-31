@@ -217,3 +217,7 @@ form * {
     border-radius: 4px;
     width: 100px;
 }
+
+#longversion, #readless {
+    display: none;
+}

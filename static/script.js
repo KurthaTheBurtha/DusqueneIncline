@@ -53,3 +53,15 @@ async function getWeather(lat, lon) {
 window.onload = function() {
     getWeather(40.4406, -79.9959);
 };
+
+$("#readmore").click(function(){
+    $(longversion).show();
+    $(readmore).hide();
+    $(readless).show();
+})
+
+$("#readless").click(function(){
+    $(longversion).hide();
+    $(readmore).show();
+    $(readless).hide();
+})
