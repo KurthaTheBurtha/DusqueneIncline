@@ -5,6 +5,7 @@
     font-variant: normal;
     padding: 5px;
     margin: 5px;
+    font-size: 20px;
 }
 
 a {
@@ -83,4 +84,136 @@ body, html {
     padding: 0%;
     margin: 0%;
     width: 100%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.long {
+    text-align: left;
+}
+
+.citation {
+    text-align: center;
+    font-size: 12px;
+}
+
+.center {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.icons a {
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.icons a:hover {
+    color: #007bff;
+    transform: scale(1.2);
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+iframe {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.carousel {
+    position: relative;
+    max-width: 800px;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+.prev { left: 10px; }
+.next { right: 10px; }
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.activity {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.thumbnail {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.text {
+    text-align: left;
+    flex: 1;
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    align-self: center;
+}
+  
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+  
+label {
+    font-weight: bold;
+    display: block;
+}
+
+form * {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-variant: normal;
+    padding: 5px;
+    margin: auto;
+    display: block;
+    text-align: center;   
+}
+
+#submit {
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
 }

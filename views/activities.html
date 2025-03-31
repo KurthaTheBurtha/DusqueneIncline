@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Kurt Schimmel">
     <title>Dusquene Incline</title>
-    <script src="./static/script.js" defer></script>
-    <link rel="stylesheet" href="./static/style.css">
+    <script src="../static/script.js" defer></script>
+    <link rel="stylesheet" href="../static/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body id="body">
     <header>
-        <img id="header" src="./static/assets/duqinclineview.png" alt="View from Dusquene Incline">
-        <p class="citation">Image from Visit Pittsburgh</p>
         <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="views/information.html">Information</a>
-            <a href="views/history.html">History</a>
-            <a href="views/activities.html">Activites</a>
+            <a href="../index.html">Home</a>
+            <a href="information.html">Information</a>
+            <a href="history.html">History</a>
+            <a href="activities.html">Activites</a>
         </nav>
     </header>
     <div class="row">
@@ -45,7 +43,7 @@
             <div class="card">
             <br>
             <h2>Directions</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.6019120674073!2d-80.02033741887763!3d40.439813001032356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f6af24753323%3A0x391d7b79fc54985b!2sDuquesne%20Incline!5e0!3m2!1sen!2sus!4v1743095816649!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.6019120674073!2d-80.02033741887763!3d40.439813001032356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f6af24753323%3A0x391d7b79fc54985b!2sDuquesne%20Incline!5e0!3m2!1sen!2sus!4v1743095816649!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                
             <br>
             </div>
             <div class="card">
@@ -94,33 +92,36 @@
                     <p id="validatemsg"></p>
                 </form>
             </div>
-        </div>
+        </div>    
         <div class="col">
-            <img id="logo" src="./static/assets/DuqInclineLogo.png" alt="Dusquene Incline Logo">
-            <h2>The Dusquene Incline</h2>
-            <p class="long">Take a step back in time on a century-old cable car and see the best views of downtown Pittsburgh while riding one of the few remaining inclines in the country. 
-                Opened on May 20, 1877, the Duquesne Incline was rescued and restored by a group of local residents in 1963 and still delights residents and visitors with its original, elegant, wooden cable cars. Now you can visit the interior of the incline and watch the machinery while it operates. 
-                The Duquesne Incline's upper station houses a museum of Pittsburgh history, including photos and a storehouse of information on inclines from around the world. Unusual Pittsburgh souvenirs, maps and photos can be found at the gift shop.</p>
-            <div class="video-container">
-                <iframe width="560" height="315" 
-                    src="https://www.youtube.com/embed/bSLvrz5GraI" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-                </iframe>
-            </div>
-            <h2>Come Visit Our Gift Shop!</h2>
-            <div class="carousel">
-                <div class="carousel-images">
-                    <img src="static/assets/carousel/shop.jpg" alt="Shop">
-                    <img src="static/assets/carousel/ornament.jpg" alt="Ornament">
-                    <img src="static/assets/carousel/shot glasses.jpg" alt="Shot Glasses">
-                    <img src="static/assets/carousel/plates.jpg" alt="Plates">
+            <a href="https://duquesneincline.org/indexc6e7.html?page=school-program" class="activity">
+                <img class="thumbnail" src="../static/assets/fieldtrips.png" alt="Field Trips">
+                <div class="text">
+                    <h2 class="long">Field Trips</h2>
+                    <p class="long">A free field trip program is available for students and youth groups of ten or more daily – except Saturdays and Sundays after 12:00 noon due to weekend crowds and limited space.</p>
                 </div>
-                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-                <button class="next" onclick="moveSlide(1)">&#10095;</button>
-            </div>
+            </a>
+            <a href="https://www.pghtours.com/" class="activity">
+                <img class="thumbnail" src="../static/assets/pghtours.png" alt="PGH Tours">
+                <div class="text">
+                    <h2 class="long">The Pittsburgh Tours Company</h2>
+                    <p class="long">Uncover the best sites of Pittsburgh at your own pace aboard a hop-on hop-off bus tour. This engaging sightseeing tour highlights history, architecture, and plenty of spots for shopping, dining, and entertainment, allowing you the chance to hop on & off at any of the 21 stops to explore on your own.</p>
+                </div>
+            </a>
+            <a href="https://www.mollystrolleyspgh.com/" class="activity">
+                <img class="thumbnail" src="../static/assets/mollystrolleys.webp" alt="Mollys Trolleys">
+                <div class="text">
+                    <h2 class="long">Molly's Trolleys Pittsburgh</h2>
+                    <p class="long">At the turn of the 20th century, trolley street cars became one of the most popular ways to get around the City of Pittsburgh. As technology and ways of life have continued to evolve, the trolley car in Pittsburgh remains a cherished tradition preserved through the sightseeing tours and shuttle services at Molly’s Trolleys.</p>
+                </div>
+            </a>
+            <a href="https://riversofsteel.com/" class="activity">
+                <img class="thumbnail" src="../static/assets/riversofsteel.jpeg" alt="Rivers of Steel">
+                <div class="text">
+                    <h2 class="long">Rivers of Steel</h2>
+                    <p class="long">Rivers of Steel showcases the artistry and innovation of southwestern Pennsylvania’s industrial and cultural heritage by fostering dynamic initiatives and transformative experiences.</p>
+                </div>
+            </a>
         </div>
     </div>
     <footer>
